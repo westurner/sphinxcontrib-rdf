@@ -1,21 +1,21 @@
 ===============================
-sphinxcontrib-rdflib
+sphinxcontrib-rdf
 ===============================
 
-.. image:: https://badge.fury.io/py/sphinxcontrib-rdflib.png
-    :target: http://badge.fury.io/py/sphinxcontrib-rdflib
+.. image:: https://badge.fury.io/py/sphinxcontrib-rdf.png
+    :target: http://badge.fury.io/py/sphinxcontrib-rdf
     
-.. image:: https://travis-ci.org/westurner/sphinxcontrib-rdflib.png?branch=master
-        :target: https://travis-ci.org/westurner/sphinxcontrib-rdflib
+.. image:: https://travis-ci.org/westurner/sphinxcontrib-rdf.png?branch=master
+        :target: https://travis-ci.org/westurner/sphinxcontrib-rdf
 
-.. image:: https://pypip.in/d/sphinxcontrib-rdflib/badge.png
-        :target: https://crate.io/packages/sphinxcontrib-rdflib?version=latest
+.. image:: https://pypip.in/d/sphinxcontrib-rdf/badge.png
+        :target: https://crate.io/packages/sphinxcontrib-rdf?version=latest
 
 
 Sphinx contrib extension for wor
 
 * Free software: BSD license
-* Documentation: http://sphinxcontrib-rdflib.rtfd.org.
+* Documentation: http://sphinxcontrib-rdf.rtfd.org.
 
 Features
 --------

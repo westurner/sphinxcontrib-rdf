@@ -2,6 +2,6 @@
 Usage
 ========
 
-To use sphinxcontrib-rdflib in a project::
+To use sphinxcontrib-rdf in a project::
 
-	import sphinxcontrib-rdflib
+	import sphinxcontrib-rdf

@@ -2,18 +2,18 @@
 # -*- coding: utf-8 -*-
 
 """
-test_sphinxcontrib-rdflib
+test_sphinxcontrib-rdf
 ----------------------------------
 
-Tests for `sphinxcontrib-rdflib` module.
+Tests for `sphinxcontrib-rdf` module.
 """
 
 import unittest
 
-from sphinxcontrib-rdflib import sphinxcontrib-rdflib
+from sphinxcontrib-rdf import sphinxcontrib-rdf
 
 
-class TestSphinxcontrib-rdflib(unittest.TestCase):
+class TestSphinxcontrib-rdf(unittest.TestCase):
 
     def setUp(self):
         pass

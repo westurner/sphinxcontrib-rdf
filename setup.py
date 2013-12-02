@@ -18,24 +18,24 @@ readme = open('README.rst').read()
 history = open('HISTORY.rst').read().replace('.. :changelog:', '')
 
 setup(
-    name='sphinxcontrib-rdflib',
+    name='sphinxcontrib-rdf',
     version='0.1.0',
     description='Sphinx contrib extension for working with RDF and RDFLib',
     long_description=readme + '\n\n' + history,
     author='Wes Turner',
     author_email='wes@wrd.nu',
-    url='https://github.com/westurner/sphinxcontrib-rdflib',
+    url='https://github.com/westurner/sphinxcontrib-rdf',
     packages=[
-        'sphinxcontrib-rdflib',
+        'sphinxcontrib-rdf',
     ],
-    package_dir={'sphinxcontrib-rdflib': 'sphinxcontrib-rdflib'},
+    package_dir={'sphinxcontrib-rdf': 'sphinxcontrib-rdf'},
     include_package_data=True,
     install_requires=[
         'Sphinx>=0.6',
     ],
     license="BSD",
     zip_safe=False,
-    keywords='sphinxcontrib-rdflib',
+    keywords='sphinxcontrib-rdf',
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
         'Intended Audience :: Developers',
