@@ -32,6 +32,7 @@ setup(
     include_package_data=True,
     install_requires=[
         'Sphinx>=0.6',
+        'RDFLib',
     ],
     license="BSD",
     zip_safe=False,
