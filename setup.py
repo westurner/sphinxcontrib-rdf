@@ -31,6 +31,7 @@ setup(
     package_dir={'sphinxcontrib-rdflib': 'sphinxcontrib-rdflib'},
     include_package_data=True,
     install_requires=[
+        'Sphinx>=0.6',
     ],
     license="BSD",
     zip_safe=False,
@@ -46,5 +47,6 @@ setup(
         'Programming Language :: Python :: 3',
         'Programming Language :: Python :: 3.3',
     ],
+    namespace_packages=['sphinxcontrib'],
     test_suite='tests',
 )
