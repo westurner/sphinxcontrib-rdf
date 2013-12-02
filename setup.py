@@ -6,7 +6,7 @@ import sys
 
 
 try:
-    from setuptools import setup
+    from setuptools import setup, find_packages
 except ImportError:
     from distutils.core import setup
 
@@ -25,10 +25,8 @@ setup(
     author='Wes Turner',
     author_email='wes@wrd.nu',
     url='https://github.com/westurner/sphinxcontrib-rdf',
-    packages=[
-        'sphinxcontrib-rdf',
-    ],
-    package_dir={'sphinxcontrib-rdf': 'sphinxcontrib-rdf'},
+    packages=find_packages(),
+    package_dir={'sphinxcontrib.rdf': 'sphinxcontrib/rdf'},
     include_package_data=True,
     install_requires=[
         'Sphinx>=0.6',
@@ -36,7 +34,7 @@ setup(
     ],
     license="BSD",
     zip_safe=False,
-    keywords='sphinxcontrib-rdf',
+    keywords='rdf sphinxcontrib sphinx rdflib',
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
         'Intended Audience :: Developers',
