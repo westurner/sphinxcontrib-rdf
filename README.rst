@@ -41,13 +41,24 @@ I loved that |book|.
    :author: sweet pete
    :oclc-isbn: 12345
 
+questions:
+
+how does this render the additional attributes as rdfa?
+can it render (in HTML) as a tooltip?
+e.g. a docutils.nodes.span_with_tooltip?
+
+what about PDF?
+
+how to reference multiple properties in-text with the same object
+definition?
 
 Origins
 --------
 * http://westurner.github.io/self-directed-learning/slides.html#gap-sphinxcontrib-courses
-* http://westurner.github.io/self-directed-learning/slides.html#gap-sphinx-glossary-thesarus 
+* http://westurner.github.io/self-directed-learning/slides.html#gap-sphinx-glossary-thesarus
 * http://lists.w3.org/Archives/Public/public-vocabs/2013Jul/0153.html
-* http://docutils.sourceforge.net/docs/ref/rst/directives.html#meta 
-* http://docutils.sourceforge.net/docs/ref/rst/directives.html#replacement-text 
-* http://docutils.sourceforge.net/docs/ref/rst/directives.html#unicode-character-codes 
-
+* http://docutils.sourceforge.net/docs/howto/rst-directives.html
+* http://docutils.sourceforge.net/docs/ref/rst/directives.html#meta
+* http://docutils.sourceforge.net/docs/ref/rst/directives.html#replacement-text
+* http://docutils.sourceforge.net/docs/ref/rst/directives.html#unicode-character-codes
+* http://sphinx-doc.org/ext/tutorial.html#the-directive-classes
