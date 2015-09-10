@@ -85,7 +85,9 @@ questions:
 * how does this render the additional attributes as rdfa?
 
   * can it render (in HTML) as a tooltip?
-  * e.g. a docutils.nodes.span_with_tooltip?
+    e.g. a docutils.nodes.span_with_tooltip?
+    
+    * tooltips do not work well with touch UIs and e.g. mobile devices.
 
 * how does this compare to the sphinxcontrib bibtex approach[es]?
 * what about PDF?
