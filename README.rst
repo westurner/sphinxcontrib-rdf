@@ -80,11 +80,14 @@ rdf directive
 
 questions:
 
+* this is neither Turtle, nor JSON-LD, nor RDFa (which can be included as a literal HTML block); but docutils nearly supports this syntax without any external parsing libraries; so is *yet another format for [triples/JSONLD]* justifiable?
+
 * how does this render the additional attributes as rdfa?
 
   * can it render (in HTML) as a tooltip?
   * e.g. a docutils.nodes.span_with_tooltip?
 
+* how does this compare to the sphinxcontrib bibtex approach[es]?
 * what about PDF?
 
   * The PDF representation should look something like the output from a line block.
