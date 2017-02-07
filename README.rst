@@ -96,6 +96,10 @@ questions:
 
 * how to reference multiple properties in-text with the same object
   definition?
+  
+* See also:
+
+  * https://github.com/noirbizarre/pelican-microdata/blob/master/microdata/plugin.py
 
 Origins
 --------
