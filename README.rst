@@ -97,6 +97,8 @@ questions:
 * how to reference multiple properties in-text with the same object
   definition?
   
+  * https://github.com/python/core-workflow/issues/66#issuecomment-290797442
+  
 * See also:
 
   * https://github.com/noirbizarre/pelican-microdata/blob/master/microdata/plugin.py
